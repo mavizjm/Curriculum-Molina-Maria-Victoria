@@ -1,0 +1,165 @@
+img{
+    height: 200px;
+}
+p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+h4{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+h6{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-left: 10px;
+}
+h5{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-left: 10px;
+}
+li{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.navbar{
+    text-decoration: none;
+    text-align: left !important;
+}
+
+.navlink{
+    text-align: center !important;
+    display:inline-block !important;
+    padding: 12px;
+    width: 130px;
+    cursor: pointer;
+    background-color: rgb(245, 245, 186);
+    transition: .5s ease;
+    border-radius: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+
+.navlink:hover{
+    background: transparent;
+    border: 1px solid rgb(250, 250, 159);
+    box-shadow: 0 0 5px rgb(250, 250, 159) inset,
+                0 0 5px 2px rgb(250, 250, 159);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .navbar {
+        flex-direction: column;
+        height: 250px;
+        width: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.titulos-principales{
+    text-align: left;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 600px){
+    .titulos-principales{
+        text-align: center;
+    }
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.iconsbox {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(208, 208, 208);
+    display: inline-block;
+    padding-right: 10px;
+    height: 100vh;
+}
+
+.icons {
+    padding-bottom: 30px;
+    padding-top: 200px;
+    display: flex;
+    column-gap: 25px;
+}
+
+.icon {
+    
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(10, 10, 10);
+    border-radius: 50%;
+    outline: 2px solid rgb(0, 0, 0);
+    
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon:hover i {
+    animation: shake .25s;
+}
+
+.icon--instagram:hover {
+    background-color:#a02d76 ;
+    outline-color: #a02d76;
+}
+
+.icon--twitter:hover {
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+.icon--linkedin:hover {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+
+.icon--github:hover {
+    background-color: #a9a9b2;
+    outline-color: #a9a9b2;
+}
+
+.recuadro{
+    margin-left: 10px;
+    margin-right: -500px;
+    border: 1.5px solid black;
+}
+@media screen and (max-width: 600px){
+    .recuadro{
+        margin-left: 30px;
+        margin-right: 10px;
+        border: 1.5px solid black;
+    }
+}
+
